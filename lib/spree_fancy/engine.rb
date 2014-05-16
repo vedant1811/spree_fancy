@@ -23,8 +23,8 @@ module SpreeFancy
         end
       end
 
-      Rails.application.config.assets.precompile << %r(icons\.(?:eot|svg|ttf|woff)$)
-      Rails.application.config.assets.precompile << %w( bx_loader.gif controls.png )
+#       Rails.application.config.assets.precompile << %r(icons\.(?:eot|svg|ttf|woff)$)
+#       Rails.application.config.assets.precompile << %w( bx_loader.gif controls.png )
     end
 
     def self.activate
